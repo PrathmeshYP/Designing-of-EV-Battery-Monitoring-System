@@ -32,6 +32,7 @@ This project addresses the need for a **simple, affordable, and reliable battery
 ---
 
 ## 🛠️ System Architecture
+![WhatsApp Image 2025-12-08 at 9 24 20 AM](https://github.com/user-attachments/assets/4ff3c9ca-2040-4f2d-b2ca-da01543f4c4c)
 The system consists of:
 - **Microcontroller:** Arduino Uno  
 - **Voltage Sensor:** Voltage Divider Module (VM427)  
