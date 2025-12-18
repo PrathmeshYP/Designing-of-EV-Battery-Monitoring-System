@@ -36,7 +36,7 @@ This project addresses the need for a **simple, affordable, and reliable battery
 The system consists of:
 - **Microcontroller:** Arduino Uno  
 - **Voltage Sensor:** Voltage Divider Module (VM427)  
-- **Current Sensor:** ACS712  
+- **Current Sensor:** ACS712
 - **Temperature Sensor:** DS18B20  
 - **Display Unit:** 16×2 LCD with I2C interface  
 
@@ -89,7 +89,7 @@ The sensors continuously collect battery data, which is processed by the microco
 ---
 
 ## 🚀 Future Enhancements
-- Wireless data transmission (IoT integration)  
+- Wireless data transmission  
 - Data logging and cloud monitoring  
 - Advanced SOC/SOH estimation algorithms  
 - Integration with full EV Battery Management Systems  
