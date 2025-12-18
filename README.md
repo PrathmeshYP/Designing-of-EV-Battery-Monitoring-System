@@ -1,4 +1,3 @@
-# Designing-of-EV-Battery-Monitoring-System
 # Designing of EV Battery Monitoring System ⚡🔋
 
 ## 📘 Project Overview
