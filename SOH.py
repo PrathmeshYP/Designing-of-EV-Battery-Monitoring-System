@@ -1,7 +1,6 @@
-# soh.py
-# ===============================
+
 # State of Health (SoH) Module
-# ===============================
+
 
 def estimate_soh(voltage, temperature, current, soc):
     """
@@ -19,3 +18,4 @@ def estimate_soh(voltage, temperature, current, soc):
 
     soh = a0 + (a1 * voltage) + (a2 * temperature) + (a3 * current) + (a4 * soc)
     return max(0, min(100, soh))
+
