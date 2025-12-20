@@ -1,7 +1,5 @@
-# soc.py
-# ===============================
+
 # State of Charge (SoC) Module
-# ===============================
 
 # Battery voltage limits
 MAX_V = 8.4     # Fully charged voltage
@@ -14,3 +12,4 @@ def compute_soc(voltage):
     """
     soc = (voltage - MIN_V) / (MAX_V - MIN_V) * 100
     return max(0, min(100, soc))
+
