@@ -4,8 +4,8 @@ from time import sleep
 import onewire, ds18x20
 
 # ==== CONFIG ====
-MAX_V = 8.4     # max voltage
-MIN_V = 6.0     # min voltage
+MAX_V = 8.4     
+MIN_V = 6.0     
 
 # Pin setup
 VOLT_PIN = 32
@@ -107,3 +107,4 @@ while True:
     print(f"V={voltage:.2f}V | I={current:.2f}A | T={temp:.0f}°C | SoC={soc:.0f}% | SoH={soh:.0f}")
 
     sleep(0)
+
