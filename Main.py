@@ -32,7 +32,7 @@ temp_sensor.atten(ADC.ATTN_11DB)
 temp_sensor.width(ADC.WIDTH_12BIT)
 '''
 # DS18B20 setup (digital)
-dat = Pin(13)                  # Data pin for DS18B20
+dat = Pin(13)                  # Data pin 
 ds_sensor = ds18x20.DS18X20(onewire.OneWire(dat))
 roms = ds_sensor.scan()
 
@@ -107,4 +107,5 @@ while True:
     print(f"V={voltage:.2f}V | I={current:.2f}A | T={temp:.0f}°C | SoC={soc:.0f}% | SoH={soh:.0f}")
 
     sleep(0)
+
 
